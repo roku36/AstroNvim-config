@@ -3,4 +3,5 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.cpp" },
 }
