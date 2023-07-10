@@ -7,4 +7,9 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.file-explorer.oil-nvim" },
+  { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.utility.transparent-nvim" },
+  { import = "astrocommunity.editing-support.chatgpt-nvim" },
+  -- { import = "astrocommunity." },
 }
