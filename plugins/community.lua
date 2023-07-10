@@ -4,6 +4,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.tailwindcss" },
@@ -11,5 +12,6 @@ return {
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.utility.transparent-nvim" },
   { import = "astrocommunity.editing-support.chatgpt-nvim" },
+  { import = "astrocommunity.motion.leap-nvim" },
   -- { import = "astrocommunity." },
 }
