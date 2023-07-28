@@ -69,6 +69,10 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    vim.cmd [[syntax match SpaceOrTab /[ \t]/]]
+    vim.cmd [[highlight SpaceOrTab guifg=#229955 guibg=#552299]]
+    vim.cmd [[highlight MyHighlight ctermbg=black guibg=black]]
+    vim.cmd [[match MyHighlight /a/]]
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
