@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.utility.transparent-nvim" },
   { import = "astrocommunity.editing-support.chatgpt-nvim" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity." },
