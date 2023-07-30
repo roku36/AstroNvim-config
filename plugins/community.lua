@@ -6,7 +6,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
-  -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.tailwindcss" },
@@ -15,7 +15,6 @@ return {
   { import = "astrocommunity.utility.transparent-nvim" },
   { import = "astrocommunity.editing-support.chatgpt-nvim" },
   -- { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity." },
 }
