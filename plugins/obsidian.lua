@@ -4,20 +4,20 @@ return {
   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand':
   -- event = { "bufreadpre " .. vim.fn.expand "~" .. "/my-vault/**.md" },
   event = { "BufReadPre  */zk/*.md" },
-  keys = {
-    {
-      "gf",
-      function()
-        if require("obsidian").util.cursor_on_markdown_link() then
-          return "<cmd>ObsidianFollowLink<CR>"
-        else
-          return "gf"
-        end
-      end,
-      noremap = false,
-      expr = true,
-    },
-  },
+  -- keys = {
+  --   {
+  --     "ga",
+  --     function()
+  --       if require("obsidian").util.cursor_on_markdown_link() then
+  --         return "<cmd>ObsidianFollowLink<CR>"
+  --       else
+  --         return "ga"
+  --       end
+  --     end,
+  --     noremap = false,
+  --     expr = true,
+  --   },
+  -- },
   dependencies = {
     "nvim-lua/plenary.nvim",
     "hrsh7th/nvim-cmp",

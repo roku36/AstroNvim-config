@@ -6,7 +6,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.tailwindcss" },
