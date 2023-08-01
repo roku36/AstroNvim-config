@@ -4,20 +4,20 @@ return {
   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand':
   -- event = { "bufreadpre " .. vim.fn.expand "~" .. "/my-vault/**.md" },
   event = { "BufReadPre  */zk/*.md" },
-  -- keys = {
-  --   {
-  --     "ga",
-  --     function()
-  --       if require("obsidian").util.cursor_on_markdown_link() then
-  --         return "<cmd>ObsidianFollowLink<CR>"
-  --       else
-  --         return "ga"
-  --       end
-  --     end,
-  --     noremap = false,
-  --     expr = true,
-  --   },
-  -- },
+  keys = {
+    {
+      "gf",
+      function()
+        if require("obsidian").util.cursor_on_markdown_link() then
+          return "<cmd>ObsidianFollowLink<CR>"
+        else
+          return "gf"
+        end
+      end,
+      noremap = false,
+      expr = true,
+    },
+  },
   dependencies = {
     "nvim-lua/plenary.nvim",
     "hrsh7th/nvim-cmp",
@@ -41,7 +41,14 @@ return {
       --  * "current_dir" - put new notes in same directory as the current buffer.
       --  * "notes_subdir" - put new notes in the default notes subdirectory.
       new_notes_location = "notes_subdir",
+      prepend_note_id = false,
     },
+
+    mappings = {
+      -- Overrides the 'gf' mapping to work on markdown/wiki links within your vault.
+      -- ["gf"] = require("obsidian.mapping").gf_passthrough(),
+    },
+
     templates = {
       subdir = "templates",
       date_format = "%Y-%m-%d-%a",
