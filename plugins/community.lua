@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.godot" },
+  -- { import = "astrocommunity.pack.godot" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.file-explorer.oil-nvim" },
   { import = "astrocommunity.completion.codeium-vim" },

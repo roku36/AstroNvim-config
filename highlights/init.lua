@@ -1,6 +1,6 @@
 return { -- this table overrides highlights in all themes
   Normal = { fg = "none", bg = "none" },
-  NormalFloat = { fg = "Red", bg = "Black" },
+  -- NormalFloat = { fg = "Red", bg = "Black" },
   NeoTreeIndentMarker = { bg = "Green" },
   NeoTreeExpander = { bg = "Blue" },
   NeoTreeFileName = { bg = "Blue" },
