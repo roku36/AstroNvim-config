@@ -1,4 +1,4 @@
 return {
-  "habamax/vim-godot",
-  lazy = false,
+  -- "habamax/vim-godot",
+  -- lazy = false,
 }
