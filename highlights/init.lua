@@ -1,9 +1,12 @@
 return { -- this table overrides highlights in all themes
   Normal = { fg = "none", bg = "none" },
+  NormalNC = { fg = "none", bg = "none" },
   -- NormalFloat = { fg = "Red", bg = "Black" },
   NeoTreeIndentMarker = { bg = "Green" },
   NeoTreeExpander = { bg = "Blue" },
   NeoTreeFileName = { bg = "Blue" },
+  NeoTreeNormal = { bg = "none" },
+  NeoTreeNormalNC = { bg = "none" },
   -- CursorLine = { fg = "Black", bg = "Blue" },
   -- Normal = { fg = "#006600", bg = "none" },
   -- EndOfBuffer = { fg = "none", bg = "none" },
